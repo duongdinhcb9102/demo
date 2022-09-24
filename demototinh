@@ -1,0 +1,79 @@
+<html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script><link href="https://kalaukamu.feeldream.repl.co/style.css" rel="stylesheet" type="text/css" /><script src="https://kalaukamu.feeldream.repl.co/script.js"></script>
+<head>
+
+<!-- 
+This code was made by Rayya R
+Blog: https://PalingIT.com
+Instagram: @rayyarrr
+TikTok: @rayy4r
+-->
+</head>
+<style>
+:root {
+--warna-bg: rgba(0, 0, 0, 0); 
+--warna-teks: white;
+--warna-bingkai: rgba(255, 255, 255, .5);
+--bingkai: 16px;
+}
+body{background-image: url("https://kalaukamu.feeldream.repl.co/wp.jpg");background-repeat: no-repeat;background-size: 110% 110%;animation:none;transition:all .3s ease;}
+@keyframes fanim {0% {background-position: 0% 0%;}25% {background-position: 100% 100%;} 50% {background-position: 0% 100%;} 75% {background-position: 50% 50%;} 100% {background-position: 0% 0%;}}
+</style>
+<body><div id="bodyblur"></div>
+
+<div id='Content'><p id="idgeser"></p>
+
+<div><blockquote id='bq'><img id="foto1" src=""/><img id="foto2" src=""/><img id="foto3" src=""/><img id="foto4" src=""/><p id="katawal"></p><p id="katabawah"></p><p id="katakhir"></p><p id="katakata">...</p><p id="akhiran" onClick="menuju();">[ Jawab ]</p></blockquote></div>
+
+<div id="contTom" style="display:none;"><a id="By" class='button' onClick="sjawab()"></i>Típ ne</a></div>
+</div>
+
+<script>const body = document.querySelector("body");function createHeart() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);</script>
+<script>
+  function fullakhir(){pkata=1;fungsi=3;foto4.style="display:inline-flex;animation:none";akhiran.innerHTML="típ nè";katawal.innerHTML = katakhir;katakata.innerHTML = katakhirb;setTimeout(fakhiran,2000);contTom.style="display:none";}
+  function katiga() {foto4.style="display:inline-flex;animation:rt 1s infinite alternate;";}
+  fungsi=1;function setel(){audio.play();} function sjawab(){contTom.style="display:none";jawab();}
+  function tpkata(){pkata+=1;} pkata=1;function playkata(){if(pkata==1){otomatis();katakata.innerHTML = kata1b;foto1.style="display:none";foto2.style="display:inline-flex;"} if(pkata==2){otomatis();katakata.innerHTML = kata1c;foto2.style="display:none";foto3.style="display:inline-flex;"} if(pkata==3){otomatis();katakata.innerHTML = kata1d;foto3.style="display:none";katiga();setTimeout(tombol,3000);} setTimeout(tpkata, 300);}
+
+  async function menuju(){await swals.fire('đâyb là fb để nhắn cho mình ');window.location = "https://www.facebook.com/duongdinhnehi11";}
+</script>
+
+<script type="text/javascript">
+       async function jawab(){
+           var { value: jawaban } = await swals.fire({
+               title: 'vậy là cậu đồng ý tối nay 8h đi trà sữa với tớ nhóa', input: 'text', allowOutsideClick: false, showCancelButton: false,
+           });
+           if(jawaban && jawaban.length < 19){
+           	window.jawaban = jawaban;
+               pesanwhatsapp = jawaban;
+               katakhir = "vậy là cậu đồng ý tối nay 8h đi trà sữa với tớ nhóa: " + jawaban;
+               fullakhir();
+           } else {
+               await swals.fire('úi!', 'cậu không được nhập quá 18 ký tự nhóa ,thử lại đi nè');
+           }
+       }
+
+      async function apapun() {
+         await swals.fire('Chú ý nhé cậu', 'Hôm nay tớ có điều nhỏ nhoi muốn nói với cậu là :)');
+         setTimeout(showDiv,100);
+      } pertama();
+      
+      async function pertama(){
+        audio = new Audio('"C:\Users\ACER\Downloads\ssstik.io_1663684338547 (3).mp3"');
+         
+         gambar1 = "https://bolehkah.feeldream.repl.co/2.gif";
+         gambar2 = "https://kalaukamu.feeldream.repl.co/a.png";
+         gambar3 = "https://kalaukamu.feeldream.repl.co/y.png";
+         gambar4 = "https://i.pinimg.com/originals/1a/26/e5/1a26e51bfd0aa963e0a48618175a9836.gif";
+         kata1 = "Trên trái đất vốn đã không bình thường,";
+         kata1b = "Vạy mà cớ sao cậu lại đi nhầm đường";
+         kata1c = "để rồi lạc vào con tym tớ thế này,phải chăng tớ đã kết cậu rùi";
+         kata1d = "vậy cậu đồng ý đi chơi với tui nhoa>_<";         
+         
+         katakhirb = "hãy nhắn cho tớ ở đây này;3";
+         loadfoto();
+         await swalst.fire('Xin Chào cậu');apapun();
+       }
+</script>
+</body>
+</html>
